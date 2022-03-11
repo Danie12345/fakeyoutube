@@ -1,5 +1,12 @@
-.creator {
-    color: green;
-    border: red 2px;
-    background-color: red;
+.searchbar {
+    background-color: rgb(46, 43, 43);
+    border-radius: .01%;
+    border-color: gray;
+    border-width: 2px;
+    color: gray;
+}
+
+#searchbar {
+    border: 0;
+    outline: 0;
 }
