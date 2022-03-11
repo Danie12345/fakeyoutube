@@ -7,13 +7,15 @@ import { BasecomponentComponent } from './basecomponent/basecomponent.component'
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NavbarComponent } from './basecomponent/navbar/navbar.component';
 import { MainvideoComponent } from './basecomponent/mainvideo/mainvideo.component';
+import { OthervideosComponent } from './basecomponent/othervideos/othervideos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BasecomponentComponent,
     NavbarComponent,
-    MainvideoComponent
+    MainvideoComponent,
+    OthervideosComponent
   ],
   imports: [
     BrowserModule,
