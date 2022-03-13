@@ -1,24 +1,24 @@
-<div class="container-fluid align-baseline globalstyle">
+<div class="container-fluid align-baseline" id="globalstyle">
     <div class="row">
         <div class="col-sm-1">
-            <button class="button">
+            <button class="button sidemenubtn" id="navbutton">
                 <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 15 15" fill="currentColor" class="bi bi-mic-fill">
                         <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
                     </svg>
                 </div>
             </button>
         </div>
 
-        <div class="col-sm-1">
-            <div>
-                <img src="home logo.png" alt="Youtube Home Logo" style="font-size: small;">
-            </div>
+        <div class="col-sm-1" id="imagebtn">
+            <button class="homelogo" onclick="location.href='https:\/\/www.youtube.com'">
+                <img class="img">
+            </button>
         </div>
 
         <div class="col-sm-1"></div>
 
-        <div class="col-sm-5 searchbar" style="margin-top: 6px;">
+        <div class="col-sm-6 searchbar" style="margin-top: 6px;">
             <form>
                 <input style="padding: 1px 5px;" type="text" placeholder="Search" id="searchbar" class="searchbar">
                 <button class="button" id="searchbutton">
@@ -38,35 +38,35 @@
             </button>
         </div>
 
-        <div class="col-sm-3" style="float: right;">
-            <div class="col-sm-3">
-                <button class="button">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera-video" viewBox="0 0 16 16">
+        <div class="col-sm-2" style="float: right;">
+            <div class="col-sm-3 createbtn">
+                <button class="button" id="navbutton">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 -1 20 20" fill="currentColor" class="bi bi-mic-fill">
                         <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5zm11.5 5.175 3.5 1.556V4.269l-3.5 1.556v4.35zM2 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H2z"/>
                     </svg>
                 </button>
             </div>
 
-            <div class="col-sm-3">
-                <button class="button">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grid-3x3-gap" viewBox="0 0 16 16">
+            <div class="col-sm-3 appsbtn">
+                <button class="button" id="navbutton">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 -1 20 20" fill="currentColor" class="bi bi-mic-fill">
                         <path d="M4 2v2H2V2h2zm1 12v-2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm0-5V7a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm0-5V2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm5 10v-2a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm0-5V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm0-5V2a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zM9 2v2H7V2h2zm5 0v2h-2V2h2zM4 7v2H2V7h2zm5 0v2H7V7h2zm5 0h-2v2h2V7zM4 12v2H2v-2h2zm5 0v2H7v-2h2zm5 0v2h-2v-2h2zM12 1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1h-2zm-1 6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zm1 4a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-2z"/>
                     </svg>
                 </button>
             </div>
 
-            <div class="col-sm-3">
-                <button class="button">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
+            <div class="col-sm-3 notifsbtn">
+                <button class="button" id="navbutton">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 -1 20 20" fill="currentColor" class="bi bi-mic-fill">
                         <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/>
                     </svg>
                 </button>
             </div>
             
-            <div class="col-sm-3">
-                <div>
-                    <img src="mrincredible.jpg" alt="profile photo" style="font-size: small;">
-                </div>
+            <div class="col-sm-3" id="imagebtn">
+                <button class="profilebtn">
+                    <img class="img">
+                </button>
             </div>
         </div>
     </div>
