@@ -1,12 +1,63 @@
+.globalstyle {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    padding: 5px;
+    width: 100%;
+}
+
 .searchbar {
-    background-color: rgb(46, 43, 43);
-    border-radius: .01%;
-    border-color: gray;
-    border-width: 2px;
-    color: gray;
+    outline: 0;
+    border-radius: 3px;
+    padding-right: 0;
 }
 
 #searchbar {
-    border: 0;
-    outline: 0;
+    border: 1px solid rgb(68, 66, 66);
+    background-color: rgb(15, 15, 15);
+    border-radius: 1px 0px 0px 1px;
+    outline: inherit;
+    color: white;
+    background-color: transparent;
+    width: 87%;
+    height: auto;
+    vertical-align: middle;
+    text-align: left;
+    margin-left: -10px;
+    margin-right: none;
+    height: 33px;
+    border-right: none;
+}
+
+#searchbar:focus {
+    font-size: 16;
+    border: 1px solid rgb(0, 153, 255);
+    border-radius: 1px 0px 0px 1px;
+}
+
+#searchbutton {
+    border: inherit;
+    border-radius: 0% 3px 3px 0%;
+    outline: inherit;
+    color: white;
+    background-color: rgb(68, 66, 66);
+    width: 15%;
+    height: 100%;
+    vertical-align: middle;
+    line-height: 24px;
+    max-width: 17%;
+    float: right;
+    margin-left: -100px;
+}
+
+#searchmicbtn {
+    border: inherit;
+    outline: inherit;
+    margin-top: inherit;
+    float: left;
+    border-radius: 50%;
+    background-color: rgba(15, 15, 15, 0.568);
 }
