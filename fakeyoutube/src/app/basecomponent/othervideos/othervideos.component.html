@@ -1,24 +1,46 @@
-<div>other videos
+<div class="container-fluid" id="othervideos">
     <!-- types of videos objects -->
-    <div>filter
-        <div>all</div>
-        <div>x</div>
-        <div>y</div>
-        <div>z</div>
-        <div>more</div>
-    </div>
+    <!-- <div *ngFor="let filter of filters">
+        <button>
+            {{filter}}
+        </button>
+    </div> -->
     <!-- other available videos objects -->
-    <div>video card
-        <div>thumbnail</div>
-        <div>
-            <div>video title</div>
-            <div>publisher</div>
-            <div>
-                <div>views</div>
-                <div>time since published</div>
+    <div *ngFor="let video of videos">
+        <div class="container-fluid videoscontainer">
+            <div class="row">
+                <div class="col-sm-5 thumbnail">
+                    <img [src]="video.url" alt="no image for you :c">
+                </div>
+                <div class="col-sm-5 videocard">
+                    <div id="font1">{{video.title}}</div>
+                    <div id="font2">
+                        <div>
+                            {{video.publisher}}
+                            <span *ngIf="video.verified == true" id="verified">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="inherit" class="bi bi-check-circle" viewBox="0.2 -3.3 15.5 15.5">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                    <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                                </svg>
+                            </span>
+                        </div>
+                        <div>
+                            <span>{{video.views}}</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 -4 16 16">
+                                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                            </svg>
+                            <span>{{video.timesincerelease}} ago</span>
+                        </div>
+                    </div>
+                    
+                    <div *ngIf="video.isnew == true" id="NEWfont">NEW</div>
+                </div>
+                <div class="col-sm-1 options">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                        <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                    </svg>
+                </div>
             </div>
-            <div>new tag</div>
         </div>
-        <div>options</div>
     </div>
 </div>

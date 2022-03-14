@@ -1,0 +1,85 @@
+.categories {
+    border-radius: 2rem;
+    color: white;
+}
+
+.category {
+    background-color: gray;
+}
+
+.options {
+    background-color: transparent;
+    color: rgb(170, 170, 170);
+    padding-right: 0;
+    float: right;
+}
+
+.thumbnail {
+    background-color: transparent;
+    border: none;
+    width: 160px;
+    height: 100px;
+}
+
+.videocard {
+    width: 180px;
+    height: 100px;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.videoscontainer {
+    width: 380px;
+    margin-left: 0;
+}
+
+#options {
+    color: rgb(170, 170, 170);
+}
+
+#verified {
+    border-radius: 50%;
+    background-color: gray;
+    margin-top: 4px;
+}
+
+#font1 {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 500;
+    max-height: 4rem;
+    overflow: hidden;
+    color: white;
+}
+
+#font2 {
+    color: rgb(170, 170, 170);
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+}
+
+#NEWfont {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: .35px;
+    line-height: 12px;
+    color: rgb(170, 170, 170);
+    border-radius: 2px;
+    background-color: gray;
+    padding: 1px;
+    margin-top: 2px;
+    width: fit-content;
+}
+
+#othervideos {
+    padding-right: 152px;
+    margin-left: -70px;
+    float: left;
+    background-color: transparent;
+    width: 500px;
+}
+
+
