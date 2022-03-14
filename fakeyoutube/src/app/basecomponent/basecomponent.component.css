@@ -13,3 +13,11 @@
     text-align: inherit;
     width: 100%;
 }
+
+#pagebackground {
+    background-color: rgb(24, 24, 24);
+}
+
+#mainvideo {
+    margin-left: -30px;
+}
