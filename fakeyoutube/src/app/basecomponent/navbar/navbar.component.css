@@ -121,3 +121,10 @@
     padding: 0;
     font-size: 2px;
 }
+
+.makesticky {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    overflow: none;
+}
