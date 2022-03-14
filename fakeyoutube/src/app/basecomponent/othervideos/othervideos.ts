@@ -22,7 +22,7 @@ export class Othervideos implements OnInit {
             verified: true,
             isnew: true,
             duration: '31:20',
-            url: 'https://pixabay.com/photos/tree-sunset-clouds-sky-silhouette-736885/'
+            url: '../othervideos/clickbait1.jpg'
         },
         {
             title: 'e (Euler\'s Number) - Numberphile',
