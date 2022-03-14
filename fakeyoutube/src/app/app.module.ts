@@ -8,6 +8,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NavbarComponent } from './basecomponent/navbar/navbar.component';
 import { MainvideoComponent } from './basecomponent/mainvideo/mainvideo.component';
 import { OthervideosComponent } from './basecomponent/othervideos/othervideos.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { OthervideosComponent } from './basecomponent/othervideos/othervideos.co
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
