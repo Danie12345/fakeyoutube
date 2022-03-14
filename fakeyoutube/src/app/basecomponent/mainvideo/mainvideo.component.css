@@ -1,0 +1,103 @@
+.hashtag {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    margin-right: 4px;
+}
+
+a {
+    color: rgb(62, 166, 255) !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: rgb(62, 166, 255) !important;
+}
+
+.videotitle {
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    white-space: normal;
+    color: white;
+    margin-top: -10px;
+}
+
+.viewsdate {
+    color: rgb(170, 170, 170);
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 400;
+    width: 100%;
+}
+
+.videooptions {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    text-decoration-thickness: auto;
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+    padding: 0;
+    margin: 0px 230px;
+    position: absolute;
+    float: right;
+}
+
+.videooption {
+    margin-left: 24px;
+    padding: 0;
+}
+
+.subscribercount {
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+    color: rgb(170, 170, 170);
+    float: bottom;
+    word-break: break-all;
+}
+
+.publisher {
+    padding: 0;
+}
+
+.publishername {
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 500;
+    color: white;
+}
+
+
+
+
+
+
+
+
+#mainvideobackground {
+    background-color: transparent;
+}
+
+#videorelated {
+    margin-left: -15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+hr {
+    height: 1px;
+    background-color: rgb(255, 255, 255, .1);
+    width: 100%;
+    border: none;
+    margin-top: 80%;
+}

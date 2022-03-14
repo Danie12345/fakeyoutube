@@ -1,0 +1,130 @@
+#globalstyle {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    padding: 5px;
+    width: 100%;
+}
+
+.searchbar {
+    outline: 0;
+    border-radius: 3px;
+    padding-right: 0;
+}
+
+#searchbar {
+    border: 1px solid rgb(68, 66, 66);
+    background-color: rgba(15, 15, 15, 0.568);
+    border-radius: 1px 0px 0px 1px;
+    outline: inherit;
+    color: white;
+    width: 87%;
+    height: auto;
+    vertical-align: middle;
+    text-align: left;
+    margin-left: -10px;
+    margin-right: none;
+    height: 33px;
+    border-right: none;
+}
+
+#searchbar:focus {
+    font-size: 16;
+    border: 1px solid rgb(0, 153, 255);
+    border-radius: 1px 0px 0px 1px;
+}
+
+#searchbutton {
+    border: inherit;
+    border-radius: 0% 3px 3px 0%;
+    outline: inherit;
+    color: white;
+    background-color: rgb(68, 66, 66);
+    width: 15%;
+    height: 100%;
+    vertical-align: middle;
+    line-height: 24px;
+    max-width: 17%;
+    float: right;
+    margin-left: -100px;
+}
+
+#searchmicbtn {
+    border: inherit;
+    outline: inherit;
+    margin-top: inherit;
+    float: left;
+    border-radius: 50%;
+    background-color: rgba(15, 15, 15, 0.568);
+}
+
+.sidemenubtn {
+    border: inherit;
+    background-color: inherit;
+    margin-left: 32px;
+}
+
+.homelogo {
+    margin-left: 32px;
+    background-image: url("../navbar/home logo.png");
+    background-size: 100px;
+    width: 100px;
+    height: 22px;
+    margin-left: 0;
+    margin-top: 6px;
+    border: none;
+    background-color: transparent;
+}
+
+.createbtn {
+    margin-top: 5px;
+}
+
+.appsbtn {
+    margin-top: 5px;
+}
+
+.notifsbtn {
+    margin-top: 5px;
+}
+
+.profilebtn {
+    background-image: url("../navbar/mrincredible.jpg");
+    background-size: 64px;
+    width: 32px;
+    height: 32px;
+    margin-top: 2px;
+    border-radius: 50%;
+    border: none;
+    background-position: -15px -4px;
+}
+
+#navbutton {
+    border: inherit;
+    outline: inherit;
+    margin-top: inherit;
+    background-color: transparent;
+    margin-top: 5px;
+    border-radius: 0;
+    padding: 0;
+}
+
+#imagebtn {
+    border: inherit;
+    outline: inherit;
+    margin-top: inherit;
+    background-color: transparent;
+    margin-top: 4px;
+    padding: 0;
+    font-size: 2px;
+}
+
+.makesticky {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    overflow: none;
+}
